@@ -48,7 +48,7 @@ mvn compile
 ### Run
 
 ```
-mvn -q exec:java -Dexec.mainClass="se350.App"
+java -cp target/classes src.App
 ```
 
 ### Test
