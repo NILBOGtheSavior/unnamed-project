@@ -17,8 +17,42 @@ Yes
 
 **What is the link to your GitHub repository?**
 
+https://github.com/NILBOGtheSavior/unnamed-project
+
 **Do you have a “Hello World” program that compiles and runs?**
 
 **Where is the entry point to your project?**
 
 </details>
+
+## Compiling and Running
+
+### Delete the target binaries
+
+```
+mvn clean
+```
+
+### Full rebuild and run
+
+```
+mvn clean package
+```
+
+### Compile only what has changed
+
+```
+mvn compile
+```
+
+### Run
+
+```
+mvn -q exec:java -Dexec.mainClass="se350.App"
+```
+
+### Test
+
+```
+mvn test
+```
